@@ -11,8 +11,8 @@ jobs:
     # Set the type of machine to run on
     runs-on: ubuntu-latest
     env:
-      working-directory : ./Unity_Project/    
-    
+      working-directory : ./AlchemyEffects_UnityProject/
+
     steps:
       - uses: actions/checkout@v2
       - run: git pull
